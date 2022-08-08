@@ -1,37 +1,111 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style type="text/css">       
 
-You can use the [editor on GitHub](https://github.com/luciajv/net-art/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+         div {
+            font-size: 18px;
+            line-height: 26px;
+                font-weight: bold;
+        text-align:center;
+            color: transparent;
+            text-shadow: 0 0 14px #000000;
+            }
+            
+    </style>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <div style="width:800px; margin:0 auto;">
+        PEOPLE, WAKE UP !
 
-### Markdown
+DO YOU STILL LET REPTILIANS CONTROL YOU ?
+<br>
+THEN YOU ARE PUPPETS OF A BIG PUPPET THEATRE,<br>
+YOU ARE UNFREE SLAVES <br>
+AND YOU NEVER HAVE TIME <br>
+BECAUSE YOU ARE DRIVEN BY MONEY, <br>
+MATERIAL WORLD, DELIGHTS, <br>
+AND YOU DO NOT USE LOVE AND FEELINGS <br>
+AMONG EACH OTHER. <br>
+<br>
+PUT YOURSELVES TOGETHER AND SHOW OTHERS <br>
+THAT YOU ARE NOT EMPTY PAWNS <br>
+ON THE CHESS BOARD OF THE NEGATIVE <br>
+EXTRATERRESTRIAL BEINGS OF THE FORCES OF DARKNESS ! <br>
+<br>
+THE ONLY WAY TO FREEDOM IS THE WAY OF LOVE, <br>
+HARMONY, FEELING AND GOODNESS. <br>
+<br>
+WELL, WAKE UP FROM YOUR <br>
+LONG "WINTER" SLEEP <br>
+AND OPEN YOUR HEARTS AND FEELINGS ! <br>
+<br>
+WE KEEP OUR FINGERS CROSSED FOR YOU <br>
+AND WE LOVE YOU. <br>
+<br>
+COSMIC PEOPLE OF THE FORCES OF LIGHT.    
+    </div>
+        
+    <div style="width:800px; margin:0 auto;">
+        <a href=http://www.angels-heaven.org/english/default_en.htm title=meet us>click</a>
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <script type="text/javascript">
+    
+        function fondo()
+        {
+        window.setTimeout( "fondo()", 0); 
+        
+        var index = Math.round(Math.random() * 3);
+        
+        var color = "00FFFF"; 
+        
+        if(index == 1)
+        color = "9297EA"; 
+        if(index == 2)
+        color = "EA92BE"; 
+        if(index == 3)
+        color = "92EAA5";
+       
+        document.getElementsByTagName("body")[0].style.backgroundColor = "#" + color;
+        
+        }
+        </script>
+            </head>
+           
+        <body onload="fondo();"> 
+        
+        <div id="divA"><center></div>
+          <script type="text/javascript" language="javascript" charset="utf-8">
+        function getTransformarPropriedades(element) {
+            var properties = ['transformar', 'msTransformar', 'WebkitTransformar', 'MozTransformar' , 'OTransformar'];
+            var p;
+            while (p = properties.shift()) {
+                if (typeof element.style[p] != 'undefined') {
+                    return p;
+                }
+            }
+            
+            return false;
+        }
+        
+        
+        var divUno = document.getElementById('divA');
+        var propiedad = getTransformarPropiedades(divUno);
+        
+        if (propiedad) {
+            var a = 0;
+            setInterval(function () {divUno.style[propiedad] = 'rotateY(' + (a++ % 360) *10+ 'deg)';},1);
+            } else {
+        }
+        </script>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/luciajv/net-art/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
